@@ -1,0 +1,16 @@
+name: Desafios
+version: '1.0.0'
+main: br.desafios.DesafiosPlugin
+api-version: '1.21'
+folia-supported: true
+description: Desafios automaticos no chat (matematica e curiosidades) com premio em dinheiro.
+softdepend: [Essentials, EssentialsX]
+commands:
+  desafio:
+    description: Gerencia os desafios do chat
+    usage: /desafio <iniciar|cancelar|reload>
+    permission: desafios.admin
+permissions:
+  desafios.admin:
+    description: Permite gerenciar os desafios
+    default: op

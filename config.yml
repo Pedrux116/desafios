@@ -1,0 +1,16 @@
+# Tempo entre cada desafio automatico (segundos)
+interval-seconds: 300
+
+# Tempo que os jogadores tem para responder (segundos)
+timeout-seconds: 30
+
+# Minimo de jogadores online para um desafio automatico comecar
+min-players: 1
+
+# Premio para quem acertar primeiro
+reward-amount: 1000
+
+# Comando executado pelo console ao premiar.
+# {player} = nome do ganhador, {amount} = valor do premio
+# (sem a barra "/"). Se o seu plugin de economia usa outro formato, mude aqui.
+reward-command: "eco give {player} {amount}"
